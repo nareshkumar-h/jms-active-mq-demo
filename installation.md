@@ -25,3 +25,5 @@ java -jar activemq.jar start
 #### Test URL
 * http://ec2-3-91-78-239.compute-1.amazonaws.com:8161
 
+Note: Admin Username/Password: admin/admin
+
