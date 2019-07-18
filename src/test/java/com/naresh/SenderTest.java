@@ -8,13 +8,13 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class DemoApplicationTests {
+public class SenderTest {
 
 	@Autowired
 	private Sender sender;
 
 	@Test
-	public void test1() throws InterruptedException {
+	public void testSender() throws InterruptedException {
 		sender.send("Hello Spring JMS ActiveMQ!");
 
 	}
